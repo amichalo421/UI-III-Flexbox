@@ -86,20 +86,31 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.navigation {
+	.navigation {
 	background-color: bisque;
 	display: flex;
-}
+	flex-direction: row;
+	justify-content: space-evenly; 
+	align-items: center;
+	flex-grow: 1;
+	flex-shrink: 1;
 
-.logo{
+	}
+
+	.logo{
 	background-color: beige;
 	display: flex;
-}
+	flex-direction: row;
+	justify-content: space-evenly; 
+	align-items: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+	}
 
-.containerimg{
+	.containerimg{
 	background-color: turquoise;
 	display: flex;
-}
+	}
 .container2{
 	background-color: purple;
 	color: black;
@@ -110,16 +121,16 @@ h1, h2, h3, h4, h5 {
 
 }
 
-#title {
+	#title {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly; 
 	align-items: center;
-}
+	}
 
-#title p{
+	#title p{
 	font-size: 30pt;
-}
+	}
 
 .container3{
 	background-color: green;
