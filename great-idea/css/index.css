@@ -77,10 +77,19 @@ h1, h2, h3, h4, h5 {
 
 .container1{
 	background-color: blue;
+	display: flex;
+	flex-direction: collumn;
+	justify-content: scpace-evenly; 
+	align-items:center;
+
 }
 
+.containerimg{
+	background-color: turquoise;
+}
 .container2{
 	background-color: purple;
+	color: black;
 }
 
 .container3{
