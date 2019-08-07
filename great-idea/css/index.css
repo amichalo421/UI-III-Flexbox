@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* //NAVIGATION// */
+
+
+.navigation {
+	color: gray;
+	font-size: 4pt;
+	
+}
+
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	align-items:flex-end;
+}
+
+.logo {
+	padding: 200px;
+	size: 50px;
+
+}
+
+/* //HEADER// */
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+}
+
+/* //SECTION// 1 */
+.top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	align-items:flex-end;
+}
+/* //IMG// */
+.middle-img{
+	size:400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items:center;
+}
+
+/* //SECTION 2// */
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	align-items:flex-end;
+}
+
+/* //CONTACT// */
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+}
+
+/* //FOOTER// */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+}
