@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0px;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -70,11 +70,12 @@ h1, h2, h3, h4, h5 {
 .containerA{
 	background-color:red;
 	display: flex;
-	flex-direction: reverse-row;
+	flex-direction: column;
 	justify-content: space-evenly; 
-	align-items: flex-end;
+	align-items: center;
 	
 }
+
 
 .container1{
 	background-color: blue;
@@ -83,6 +84,16 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-evenly; 
 	align-items: center;
 	
+}
+
+.nav {
+	background-color: bisque;
+	display: flex;
+}
+
+.logo{
+	background-color: bisque
+	display: flex;
 }
 
 .containerimg{
@@ -123,10 +134,10 @@ h1, h2, h3, h4, h5 {
 	align-items:center;
 }
 
-.container.container6{
+.container6{
 	background-color: seagreen;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	justify-content: space-evenly; 
 	align-items: flex-end;
 }
