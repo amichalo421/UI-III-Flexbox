@@ -67,33 +67,47 @@ h1, h2, h3, h4, h5 {
 
 /* //NAVIGATION// */
 
-
-.navigation {
-	color: gray;
-	font-size: 4pt;
-	
-}
-
-
-nav {
+.navcon {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around; 
-	align-items:flex-end;
-}
-
-.logo {
-	padding: 200px;
-	size: 50px;
+	align-items:center;
 
 }
+
+	.navigation {
+		color: gray;
+		font-size: 12pt;
+		
+	}
+
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around; 
+		align-items:flex-end;
+	}
+
+	.logo {
+		padding: 20px;
+		size: 0px;
+
+	}
 
 /* //HEADER// */
 
-header {
+.hedcont{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start; 
+	justify-content: center; 
+	align-items: center;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
 	align-items: center;
 }
 
