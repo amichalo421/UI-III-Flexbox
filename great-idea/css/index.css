@@ -67,6 +67,55 @@ h1, h2, h3, h4, h5 {
 
 /* //NAVIGATION// */
 
+.containerA{
+	background-color:red;
+	display: flex;
+	flex-direction: collumn;
+	justify-content: scpace-evenly; 
+	align-items:center;
+}
+
+.container1{
+	background-color: blue;
+}
+
+.container2{
+	background-color: purple;
+}
+
+.container3{
+	background-color: green;
+}
+
+.container4{
+	background-color: yellow;
+}
+
+.container5{
+	background-color: turquoise;
+}
+
+.container.container6{
+	background-color: seagreen;
+}
+
+.container7{
+	background-color: magenta;
+}
+
+.container8{
+	background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
 .navcon {
 	display: flex;
 	flex-direction: row;
