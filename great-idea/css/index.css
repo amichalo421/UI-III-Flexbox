@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5 {
 	background-color: turquoise;
 	display: flex;
 	}
+
 .container2{
 	background-color: purple;
 	color: black;
@@ -118,6 +119,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
+	padding: 25px;
 
 }
 
@@ -129,7 +131,7 @@ h1, h2, h3, h4, h5 {
 	}
 
 	#title p{
-	font-size: 30pt;
+	font-size: 40pt;
 	}
 
 .container3{
@@ -139,6 +141,9 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-around; 
 	align-items:center;
 }
+	#title {
+		padding: 14px;
+	}
 
 .container4{
 	background-color: yellow;
