@@ -68,15 +68,30 @@ h1, h2, h3, h4, h5 {
 
 /* //NAVIGATION// */
 
-.containerA{
-	/* background-color:red; */
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly; 
-	align-items: center;
-	padding: 40px 40px 40px 40px;
-	
-}
+@media(max-width: 800px) {
+	.containerA{
+		/* background-color:red; */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly; 
+		align-items: center;
+		padding: 40px 40px 40px 40px;
+		
+	}}
+
+@media(max-width: 400px) {
+	.containerA{
+		background-color:red;
+		background-color: black;
+		400
+	}}
+
+@media(max-width: 1000px) {
+	.containerA{
+		background-color: blue;
+		1000
+		
+	}}
 
 
 .container1{
@@ -242,13 +257,13 @@ h1, h2, h3, h4, h5 {
 
 	}
 
-.containerft{
-	/* background-color: brown; */
-	display: flex;
-	flex-direction: row;
-	justify-content: center; 
-	align-items: center;
-}
+	.container8{
+		/* background-color: brown; */
+		display: flex;
+		flex-direction: row;
+		justify-content: center; 
+		align-items: center;
+	}
 
 
 /* SERVICES */
@@ -309,4 +324,11 @@ h1, h2, h3, h4, h5 {
 .mdflxbx{
 	display: flex;
 
+}
+.containerft{
+	/* background-color: brown; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
 }
