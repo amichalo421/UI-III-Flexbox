@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: collumn;
 	justify-content: space-evenly; 
 	align-items: center;
+	padding: 20px;
 }
 	.container1 a {
 		text-decoration: none;
@@ -214,6 +215,7 @@ h1, h2, h3, h4, h5 {
 
 	.services {
 		margin: 20px;
+		border-bottom: 2px solid black;
 	}
 
 	.product {
@@ -238,10 +240,48 @@ h1, h2, h3, h4, h5 {
 
 	}
 
-.container8{
+.containerft{
 	/* background-color: brown; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
 	align-items: center;
 }
+
+
+/* SERVICES */
+
+.bottom-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; 
+	align-items: center;
+}
+
+.bottom-section-list ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly; 
+	align-items: center;
+}
+
+.container-left {
+	padding: 20px;
+}
+
+.bsb {
+	padding-bottom: 20px;
+}
+
+.services-info-img {
+	padding: 10px;
+}
+
+.mdbx{
+	background-color: lightgray;
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+
+}
+
