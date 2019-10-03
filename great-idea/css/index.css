@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 10px 10px 10px 10px;
 }
 ol, ul {
 	list-style: none;
@@ -67,38 +68,57 @@ h1, h2, h3, h4, h5 {
 
 /* //NAVIGATION// */
 
-.containerA{
-	background-color:red;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly; 
-	align-items: center;
-	
-}
+@media(max-width: 800px) {
+	.containerA{
+		/* background-color:red; */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly; 
+		align-items: center;
+		padding: 40px 40px 40px 40px;
+		
+	}}
+
+@media(max-width: 400px) {
+	.containerA{
+		background-color:red;
+		background-color: black;
+		400
+	}}
+
+@media(max-width: 1000px) {
+	.containerA{
+		background-color: blue;
+		1000
+		
+	}}
 
 
 .container1{
-	background-color: blue;
-	display: flex;
+	/* background-color: blue; */
+	width: 100%;
+	display: flex; 
 	flex-direction: collumn;
 	justify-content: space-evenly; 
 	align-items: center;
-	
+	padding: 20px;
 }
+	.container1 a {
+		text-decoration: none;
+		color: grey;
+		padding: 10px 20px 10px 20px;
+	}
 
 	.navigation {
-	background-color: bisque;
+	/* background-color: bisque; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
-	flex-grow: 1;
-	flex-shrink: 1;
-
 	}
 
 	.logo{
-	background-color: beige;
+	/* background-color: beige; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
@@ -107,17 +127,37 @@ h1, h2, h3, h4, h5 {
 	flex-shrink: 1;
 	}
 
-	.containerimg{
-	background-color: turquoise;
+	.containerimg {
+	/* background-color: turquoise; */
+	width: 100%;
 	display: flex;
+	padding: 10px;
 	}
+
+	.mdmgcnt h1 .middle-img {
+		/* background-color: pink; */
+		text-align: center;
+		font-size: 50pt;
+		width: 100%;
+    	height: auto;
+    	left: 0px;
+		right: 0px;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly; 
+		align-items: center;
+
+	}
+
 .container2{
-	background-color: purple;
+	/* background-color: purple; */
 	color: black;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
+	padding: 15px;
 
 }
 
@@ -126,54 +166,167 @@ h1, h2, h3, h4, h5 {
 	flex-direction: column;
 	justify-content: space-evenly; 
 	align-items: center;
+	padding: 30px 30px 30px 30px;
 	}
 
 	#title p{
-	font-size: 30pt;
+	font-size: 40pt;
+	padding: 5px;
 	}
 
+	.get-started a {
+		font-family: 'Titillium Web', sans-serif;
+		color: black;
+		padding: 10px;
+		border: 1px solid black;
+		text-decoration: none;
+	}
+
+
+
 .container3{
-	background-color: green;
+	/* background-color: green; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around; 
 	align-items:center;
+	margin: 20px;
 }
+	
 
 .container4{
-	background-color: yellow;
+	/* background-color: yellow; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items:center;
+	border-top: 2px solid black;
 }
 
+	.features {
+		margin: 20px;
+	}
+
+	.about {
+		margin: 20px;
+	}
+
 .container5{
-	background-color: turquoise;
+	/* background-color: turquoise; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
 	align-items: center;
+
 }
 
 .container6{
-	background-color: cornflowerblue;
+	/* background-color: cornflowerblue; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; 
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+
+	.services {
+		margin: 20px;
+	}
+
+	.product {
+		margin: 20px;
+	}
+
+	.vision {
+		margin: 20px;
+	}
+
+.container7{
+	/* background-color: rgb(0, 238, 255); */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: flex-start;
+	padding-left: 20px;
+}
+
+	section {
+
+	}
+
+	.container8{
+		/* background-color: brown; */
+		display: flex;
+		flex-direction: row;
+		justify-content: center; 
+		align-items: center;
+	}
+
+
+/* SERVICES */
+
+.bottom-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly; 
 	align-items: center;
 }
 
-.container7{
-	background-color: rgb(0, 238, 255);
+.bottom-section-list ul {
 	display: flex;
-	flex-direction: row;
-	justify-content: center; 
-	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-evenly; 
+	align-items: center;
 }
 
-.container8{
-	background-color: brown;
+.container-left {
+	padding: 20px;
+}
+
+.bsb {
+	padding-bottom: 20px;
+}
+
+.services-info-img {
+	padding: 10px 10px 10px 10px;
+
+}
+
+.services2 {
+	margin: 20px;
+	border-bottom: 2px solid black;
+}
+
+.mdbx{
+	background-color: lightgray;
+	border: 2px solid black;
+	padding: 20px 20px 30px 30px;
+	margin: 10px;
+
+}
+
+.get-started2 a {
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+	border: 1px solid black;
+	text-decoration: none;
+	margin: 10px 10px 10px 10px;
+}
+
+.bxtxt{
+	padding-bottom: 30px;
+}
+
+.mdflxbx{
+	display: flex;
+
+}
+.containerft{
+	/* background-color: brown; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
